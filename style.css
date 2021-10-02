@@ -1,0 +1,163 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+::selection {
+    color: white;
+    background:#c2254af5;
+  }
+.herosection{
+    background: url(./images/bg.jpg) no-repeat  ; 
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.315);
+    transition: all 1s ease-in-out;
+    background: linear-gradient(#000000ce #00003042);
+    font-family:'Arial Narrow',sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.navbar ul
+{
+    display: flex;
+    margin-left: 170px;
+}
+.navbar li{
+   list-style: none;
+padding: 20px 0px;
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px!important;
+    font-weight: 600;
+    padding: 0px 20px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.navbar li a:hover
+    {   
+        background-color: rgb(44, 43, 43);
+        background-size: 5px 5px 50px;
+        color:#ce274e;
+        animation-delay: 1s;
+    }
+
+.title{ 
+    width: 50%px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40%;
+    height: 100vh;
+ 
+}
+
+.title h1{
+font-size: 82px;
+font-family:  Arial,sans-serif, Helvetica;
+font-weight: 300;
+text-transform: uppercase;
+color: white;
+padding: 0px 10px;
+}
+
+
+.title p{
+color: white;
+padding-left: 279px;
+}
+
+.center-items{
+margin:5px 300px;
+padding: 10px 15px;
+line-height: 20px;
+}
+
+.content-section{
+margin-top:75px ;
+width: 100%;
+}
+
+.intro{
+background-color: rgb(238, 237, 237);
+color: rgb(133, 128, 128);
+}
+
+.content{
+margin-top: 30px;
+text-align: justify;
+
+}
+
+.content p>img{
+float: right;
+display: block;
+margin-left: 20px;
+
+}
+
+.vedio{
+    margin:5px 200px;
+    padding: 10px 100px;
+ 
+
+}
+
+iframe{
+
+    height: 100vh;
+    padding-left: 25px;
+
+}
+/* _______________Footer___________ */
+.foot{
+    background-color: #242b33;
+    text-align:center;
+    padding:2rem;
+}
+.social{
+    margin-left: 2rem;
+}
+
+#novydes .ddemblem {
+    position: absolute;
+    margin-top: -50px;
+    max-height: 120px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-sizing: border-box;
+    z-index: 9;
+}
+
+#novydes .ddemblem img {
+    max-height: 120px;
+    width: auto;
+}
+
+    img, video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #bottomlogo img{
+    width: 200px;
+    height: 203px;
+    margin-right: auto;
+    margin-left: 43%;
+    margin-bottom: 20px;
+    }  
